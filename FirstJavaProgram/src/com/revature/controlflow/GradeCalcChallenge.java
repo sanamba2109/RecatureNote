@@ -19,10 +19,10 @@ public class GradeCalcChallenge {
 		
 		//Calculationg student letter grade
 		int studentLetterGrade= (int)percent(pointsRight, totalAmount);
-		System.out.println(totalAmount);
+	/*	System.out.println(totalAmount);
 		System.out.println(pointsRight);
 		
-		System.out.println(studentLetterGrade);
+		System.out.println(studentLetterGrade);*/
 		
 		if (studentLetterGrade >=90 && studentLetterGrade<=100) {
 			System.out.println("The Student's Letter grade is A "  +" That's " + studentLetterGrade+ " % ");
